@@ -2,9 +2,11 @@
 
 A machine learning project to predict the author of messages in a WhatsApp group chat.
 
-Everyone has their own unique texting style. This project leverages natural language processing (NLP) techniques to analyze message patterns and identify who likely wrote a given message. By training a model on historical chat data, the classifier can predict the author with reasonable accuracy.
+Ever looked at an old message with no name attached, and thought, *“Oh, that has to be Alex — only they text like that”*? Whether it’s a favorite phrase, punctuation style, or just a certain vibe, everyone has a unique way of writing. If humans can pick up on those subtle cues, why not teach a machine to do the same?
 
-It uses the `bert-base-cased` model for classification—while not the most powerful by today's standards, it's ideal for demonstrating functionality with manageable training time.
+This project explores that idea using natural language processing (NLP). By analyzing historical WhatsApp chats, we train a model to recognize these patterns and predict the most likely sender of a message. It’s like giving your computer the same intuition you have when reading your friends’ texts.
+
+It uses the `bert-base-cased` model for classification — not the most cutting-edge today, but ideal for demonstrating the concept with a reasonable training time.
 
 ## Core Features
 
